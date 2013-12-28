@@ -3,7 +3,7 @@ Code for Re-Analysis of Vellend et al. 2013 PNAS
 
 Code that accompanies Gonzalez et al.'s re-analysis of Vellend et al. 2013.  All files are setup using knitr tags so that they can easily be incorporated into markdown documents. At the head of each file, it loads other files it depends upon so that one can only concentrate working on the piece of the re-analysis they are interested in.
 
-*Files*
+**Files**
 
 velLoad.R: loads data, assuming that one has downloaded the supplementary excel file from [the original paper](http://dx.doi.org/10.1073/pnas.1312779110)
 
@@ -15,4 +15,4 @@ velProblems.R: Looks at the residuals and leverage of points from the Vellend et
 
 velPower.R: Power analyses of simulation showing the effects of looking at a regression relationship versus an effect divided by a predictor and how the distribution of said predictor can affect power. Also looks at power by resampling from the Vellend et al. data and comparing the power of both models to detect a non-zero rate of change. 
 
-*Last Updated:* Dec 28, 2013
+**Last Updated:** Dec 28, 2013
