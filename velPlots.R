@@ -53,13 +53,17 @@ fitPlots
 fitPlotsLog <- ggplot(velTypes, aes(y=effect_no_duration, x=log(Duration))) +
   geom_point() +
   geom_point(size=2.2) +
+  xlim(1.5,4.5) +
   facet_wrap(~type) +
-  xlab("Log(Duration)")+ ylab("Effect\nln(S2/S1)") +
-  theme_bw(base_size=18) +
+  xlab("\nLog(Duration)")+ ylab("Effect\nln(S2/S1)\n") +
+  theme_bw(base_size=14) +
   geom_hline(yintercept=0, lwd=1.5, lty=2, color="grey") +
   geom_line(data=ndf, aes(y=effect_no_duration, x=log(duration_decadal)), color="black", lwd=2)
 
+#cairo_ps(file="../vellend_letter_fig1.eps", 
+#         width=8, height=4, pointsize=5)
 fitPlotsLog
+#dev.off()
 
 ##@knitr spacerPlot
 ###########

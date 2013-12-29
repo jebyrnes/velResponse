@@ -12,6 +12,7 @@
 ##
 ################################################################
 
+##@knitr velDataLoad
 source("./velLoad.R", echo=FALSE)
 
 ##@knitr velAnalysis
