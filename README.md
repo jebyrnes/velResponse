@@ -7,6 +7,8 @@ Code that accompanies Gonzalez et al.'s re-analysis of Vellend et al. 2013.  All
 
 velLoad.R: loads data, assuming that one has downloaded the supplementary excel file from [the original paper](http://dx.doi.org/10.1073/pnas.1312779110)
 
+velLeafletMap.R: Uses the leaflet library from Rstudio to make an interactive map of sites with information about effects.
+
 velModel.R: fits mixed models from the Vellend et al. 2013 paper using lme4 and our re-analysis using effect without duration as a response and log(Duration) as a predictor
 
 

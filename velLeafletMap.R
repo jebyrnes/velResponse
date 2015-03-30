@@ -1,3 +1,12 @@
+##########################
+# Code to use the Leaflet library from
+# Rstudio to make an interactive map of
+# where the Vellend et al. 2013 sites are
+# And visualize them on an ESRI satellite map
+#
+# by Jarrett Byrnes
+##########################
+
 library(leaflet) #See http://rstudio.github.io/leaflet/
 library(RColorBrewer)
 library(classInt)
